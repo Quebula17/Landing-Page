@@ -540,17 +540,31 @@ justify-content: space-around;
     }
 
     #footer-wrapper-3{
-        align-items: flex-start;
+        align-items: center;
     }
 
     #f-wrapper-1{
         justify-content: center;
     }
 
+    #footer-wrapper-2{
+        order:-2;
+        margin-top: 3rem;
+    }
+
+    #footer-wrapper-3{
+        order: -1;
+    }
+
 
 }
 
 @media (max-width: 800px){
+
+    #ham{
+        display: block;
+        margin-right: 2rem;
+    }
     #text-div-1{
         font-size: 3rem;
     }
@@ -584,12 +598,16 @@ justify-content: space-around;
     }
 
     #content{
-        font-size: 1.2rem;
+        font-size: 1rem;
         padding-left: 1rem;
     }
 
     #footer-wrapper-3{
         width: 100%;
+    }
+
+    #footer-wrapper-3{
+        margin-right: auto;
     }
 }
 
